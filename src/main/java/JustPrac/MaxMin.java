@@ -1,21 +1,21 @@
 package JustPrac;
 
-public class MaxMin {
+public class maxmin {
 
 	public static void main(String[] args) {
-		int[] numbers = {90,3,4,5,1,9,333};
+		int[] numbers = {10,50,22,5,30,20};
 		int max = numbers[0];
 		int min = numbers[0];
-		for(int n : numbers) {
-			if(n>max) {
-				max=n;
+		for(int num : numbers) {
+			if(num>max) {
+				max=num;
 			}
-			if(n<min) {
-				min=n;
+			if(num<min) {
+				min=num;
 			}
 		}
-		System.out.println("Max number is : "+max);
-		System.out.println("Min number is :"+min);
+System.out.println("Max numbers is :"+max);
+System.out.println("Min nuber is : "+min);
 	}
 
 }
