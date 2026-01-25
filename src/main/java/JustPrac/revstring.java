@@ -6,12 +6,10 @@ public class revstring {
 		String word = "Vignesh shetty";
 		String rev = " ";
 		char[] charlist = word.toCharArray();
-		for (char c : charlist) {
-			if (c != ' ') {
-				rev = c + rev;
-			}
+		for(char c : charlist) {
+			rev = c + rev;
 		}
-		System.out.println(rev);
+		System.out.println("Rev of string is: "+rev);
 	}
 
 }
