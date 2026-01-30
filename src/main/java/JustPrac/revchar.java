@@ -1,15 +1,17 @@
 package JustPrac;
 
-public class revstring {
+public class revchar {
 
 	public static void main(String[] args) {
 		String word = "Vignesh shetty";
+		char charlist[] = word.toCharArray();
 		String rev = " ";
-		char[] charlist = word.toCharArray();
-		for(char c : charlist) {
+		for (char c : charlist) {
+			if(c!=' ') {
 			rev = c + rev;
+			}
 		}
-		System.out.println("Rev of string is: "+rev);
+		System.out.println(rev);
 	}
 
 }
